@@ -1,10 +1,19 @@
+
+
 body {
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(0, 0, 0);
   }
   #fortress {
-    border: 5px solid black;
+    border: 5px solid white;
+  }
+  #score {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
   }
